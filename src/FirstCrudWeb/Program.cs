@@ -1,7 +1,19 @@
+using FirstCrudWeb.Data;
+using Microsoft.EntityFrameworkCore;
+using Westwind.AspNetCore.LiveReload;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddDbContext<FirstCrudDbContext>(options =>
+options.UseSqlite(builder.Configuration.GetConnectionString("SqliteStrConnection")));
+
+
+// Add services to reload
+builder.Services.AddLiveReload();
+
+
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 var app = builder.Build();
 
@@ -13,6 +25,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -20,8 +34,10 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+
+
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Students}/{action=Index}/{id?}");
 
 app.Run();

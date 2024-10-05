@@ -14,7 +14,7 @@ build_property.EnableComHosting =
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\medra\Documents\Clases\C-5\Programacion II\first-crud-asp\src\FirstCrudWeb
 build_property._RazorSourceGeneratorDebug = 
 
@@ -32,6 +32,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/medra/Documents/Clases/C-5/Programacion II/first-crud-asp/src/FirstCrudWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/medra/Documents/Clases/C-5/Programacion II/first-crud-asp/src/FirstCrudWeb/Views/Students/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/medra/Documents/Clases/C-5/Programacion II/first-crud-asp/src/FirstCrudWeb/Views/Students/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/medra/Documents/Clases/C-5/Programacion II/first-crud-asp/src/FirstCrudWeb/Views/Students/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/medra/Documents/Clases/C-5/Programacion II/first-crud-asp/src/FirstCrudWeb/Views/Students/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/medra/Documents/Clases/C-5/Programacion II/first-crud-asp/src/FirstCrudWeb/Views/_ViewImports.cshtml]
