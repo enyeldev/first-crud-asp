@@ -1,0 +1,44 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific folders
+/.vs
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Auto generated files (backup, etc.)
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+*.dotCover
+.coverage
+.coveragexml
+.testsettings
+.vstest
+
+# Build results
+[Bb]in/
+[Oo]bj/
