@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using FirstCrudWeb.Data;
-using FirstCrudWeb.Models;
+using FirstCrud.Domain.Data;
+using FirstCrud.Domain.Models;
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 

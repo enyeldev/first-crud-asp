@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FirstCrudWeb.Models
+namespace FirstCrud.Domain.Models
 {
     public class Student
     {

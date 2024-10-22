@@ -1,11 +1,12 @@
-using FirstCrudWeb.Data;
+using FirstCrud.Domain.Data;
 using Microsoft.EntityFrameworkCore;
 using Westwind.AspNetCore.LiveReload;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<FirstCrudDbContext>(options =>
-options.UseSqlite(builder.Configuration.GetConnectionString("SqliteStrConnection")));
+options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServerStrConnection")));
+
 
 
 // Add services to reload
