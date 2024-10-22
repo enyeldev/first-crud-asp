@@ -1,6 +1,7 @@
 using System.Diagnostics;
+using FirstCrud.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
-using FirstCrudWeb.Models;
+
 
 namespace FirstCrudWeb.Controllers;
 

@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using FirstCrudWeb.Models;
+using FirstCrud.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace FirstCrudWeb.Data
+namespace FirstCrud.Domain.Data
 {
     public class FirstCrudDbContext : DbContext
     {

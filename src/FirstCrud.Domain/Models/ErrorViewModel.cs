@@ -1,4 +1,4 @@
-namespace FirstCrudWeb.Models;
+namespace FirstCrud.Domain.Models;
 
 public class ErrorViewModel
 {
